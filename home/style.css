@@ -1,0 +1,129 @@
+/* Fonte padrão do site */
+*{
+    font-family: Josefin Sans;
+
+}
+
+/* Cor de fundo do site */
+body{
+   background: #FFFFFF;
+}
+
+/* Tamanho da imagem do logo */
+img{
+    width: 150px;
+    margin-top: 5px;
+}
+
+/* Retirando a decoração da âncora */
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    color: black;
+}
+
+/* Alterando a cor do item "Login" do Menu*/
+#login{
+    color: #296117;
+}
+
+/* Tornando a div do Logo responsiva */
+#divLogo{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+/* Tornando a div do Menu responsiva e ajustando as posições de cada item */
+#divMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#inicio{
+    text-align: center;
+}
+/* Formatação do primeiro parágrafo */
+#p1{
+    font-family: Josefin Sans;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(41, 97, 23, 1);
+      
+    margin: 80px 144px auto 144px;
+}
+
+/* Formatação do segundo parágrafo */
+#p2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 25px;
+
+    color: #7E7C7C;
+}
+
+
+
+/* Ajustando a posição do input da barra de pesquisa */
+#barra{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    margin-left: 420px;
+    top: 400px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/* Customizando as respectivas cores da barra de pesquisa e seus itens */
+#pesquisa{
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+    
+}
+
+span{
+    border-color: #F3F3F3;
+    background-color: #F3F3F3
+}
+
+svg{
+    color: #7E7C7C;
+    background-color: #F3F3F3;
+    box-shadow: 0px 2px #00000038;
+}
+
+/* Formatação do botão "Buscar" */
+#btnBuscar{
+    padding: 10px;
+    border-radius: 9px;
+    border: 0px;
+    background-color: #D3E381;
+    box-shadow: 0px 2px #00000038;
+    color: rgba(41, 97, 23, 1);
+    margin-left: 10px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

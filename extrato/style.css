@@ -1,0 +1,73 @@
+:root{
+    --cor_princial_verde: #296117;
+    --cor_secundaria_verde: #D3E381;
+    --cor_terciaria_cinza: #7E7C7C;
+    --cor_background_cinza: #F3F3F3;
+    --fontfamily_padrao:'Josefin Sans';
+    }
+.table{
+    font-family: var(--fontfamily_padrao);
+}
+#extrato_btn{
+    background-color: var(--cor_secundaria_verde);
+    color: var(--cor_princial_verde);
+    font-family: var(--fontfamily_padrao);
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+
+}
+#extrato_perfilponto{
+
+}
+
+#extrato_perfil{
+    display: flex;
+    justify-content: space-around;
+}
+
+#extrato_nome{
+    color: var(--cor_princial_verde);
+    font-family: var(--fontfamily_padrao);
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px;
+}
+
+#extrato_pontos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cor_background_cinza);
+    padding: 10px;
+    border-radius: 5px;
+}
+#extrato_gerenciar{
+    color: var(--cor_terciaria_cinza);
+    font-family: var(--fontfamily_padrao);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px;
+}
+
+#extrato_qtd{
+    color: black;
+    font-family: var(--fontfamily_padrao);
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+
+#extrato_tabela_h2{
+    color: var(--cor_princial_verde);
+    font-family: var(--fontfamily_padrao);
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 60px;
+}

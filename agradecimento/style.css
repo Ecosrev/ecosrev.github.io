@@ -1,0 +1,46 @@
+:root{
+    --cor_princial_verde: #296117;
+    --cor_secundaria_verde: #D3E381;
+    --cor_terciaria_cinza: #7E7C7C;
+    --cor_background_cinza: #F3F3F3;
+    --fontfamily_padrao:'Josefin Sans';
+    }
+.col{
+    font-family: var(--fontfamily_padrao);
+}
+#agradecimento_conteudo{
+    text-align: center;
+}
+
+#agradecimento_texto{
+    font-family: var(--fontfamily_padrao);
+    color: var(--cor_princial_verde);
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    }
+
+#agradecimento_subtexto{
+    font-family: var(--fontfamily_padrao);
+    color: #2c5f1ba3;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    }
+#agradecimento_btn{
+    background-color: var(--cor_secundaria_verde);
+    color: var(--cor_princial_verde);
+    font-family: var(--fontfamily_padrao);
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
