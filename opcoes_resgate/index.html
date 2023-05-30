@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca746a463a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <style>
         #SubTot, #Points{
@@ -33,12 +34,16 @@
     <header>
         <nav id="RNavBar">
             <div id="DivLeft">
-                <a href="index.html"><img src="img/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial    -->
+                <a href="/home/index.html"><img src="img/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial  -->
+                <ul class="dropdown-menu text-small">
             </div> 
-            <div id="DivRight">
+             <div id="DivRight">
+                <i class="fa-solid fa-coins" style="color: #296117;" id="coins"></i>
+                <p class="LogOff">300,00</p>
                 <img src="img/Ellipse 4.png" alt="foto de perfil do usuário" id="ImgUser">
-                <p id="LogOff" href="/home/index.html">Sair</p>
-        </div>
+                <a class="LogOff" href="/home/index.html"><ul>Sair</ul></a>
+            
+            </div>
         </nav>
     </header>
     <article id="Resgate">
@@ -50,15 +55,15 @@
             </thead>
             <tr>
                 <td class="TabItem OptR">Shows e ingressos</td>
-                <td class="TabValue OptR"></div><input type="checkbox" name="check_1" id="check_1" value="150"></td>
+                <td class="TabValue OptR"></div><input type="checkbox" name="check_1" id="check_1" value="150" checked></td>
             </tr>
             <tr>
                 <td class="TabItem OptR">Descontos</td>
-                <td class="TabValue OptR"><input type="checkbox" name="check_2" id="check_2" value="150"></td>
+                <td class="TabValue OptR"><input type="checkbox" name="check_2" id="check_2" value="150" checked></td>
             </tr>
             <tr>
                 <td class="TabItem OptR">Bilhetes de ônibus</td>
-                <td class="TabValue OptR"><input type="checkbox" name="check_3" id="check_3" value="150"></td>
+                <td class="TabValue OptR"><input type="checkbox" name="check_3" id="check_3" value="150" checked></td>
             </tr>
         </table>
     </article>
@@ -74,5 +79,6 @@
             <button id="btn_Resgate" onclick="window.location.href = '/resgate/index.html'">Finalizar</button>
         </div>
     </article>
+
 </body>
 </html>

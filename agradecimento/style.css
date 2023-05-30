@@ -44,3 +44,45 @@
     border: none;
     margin-bottom: 20px;
 }
+#agradecimento_img{
+    margin: 25px 0px 55px 0px;
+}
+
+
+#RNavBar{
+    border-bottom: 1px solid rgba(87, 87, 87, 0.25);
+    padding: 10px;
+    margin-bottom: 25px;
+}
+/* FORMATANDO A DIV ESQUERDA */
+    #DivLeft{
+    position: absolute;
+}    
+    /* FORMATANDO A IMAGEM DO LOGO */
+    #ImgLogo{
+        width: 150px;
+        margin-top: 5px;
+}
+/* FORMATANDO A DIV DIREITA */
+    #DivRight{
+        display: flex; 
+        justify-content: flex-end;
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+    /* FORMATANDO A FOTO DO USUÁRIO */
+    #ImgUser{
+        width: 60px;
+        margin: 2px 15px;
+    }
+    /* FORMATANDO O LOG OFF */
+    .LogOff{
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 630;
+        color: #296117;
+        text-decoration: none;
+
+    }

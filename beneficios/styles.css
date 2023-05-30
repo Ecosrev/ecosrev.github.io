@@ -35,11 +35,17 @@ body {
                 margin: 2px 15px;
             }
             /* FORMATANDO O LOG OFF */
-            #LogOff{
+            .LogOff{
                 display: inline-block;
                 margin-right: 30px;
                 font-size: 20px;
                 font-weight: 630;
+                color: #296117;
+            }
+            /* FORMATANDO O ÍCONE DE PONTOS */
+            #coins{
+                width: 15px;
+                padding: 20px 7px 0 0;
                 color: #296117;
             }
 
@@ -52,7 +58,7 @@ body {
     #TitResgate{
         margin: 25px 20px;
         color: #296117;
-        font-size: 35px;
+        font-size: 60px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.40);
         width: 100%;
     }
@@ -98,6 +104,7 @@ body {
     position: relative;
     float: right;
     margin: 50px 50px 0 0;
+    display: none;
     
 }
     /* FORMATANDO o TÍTULO */

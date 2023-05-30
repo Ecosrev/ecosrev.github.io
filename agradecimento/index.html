@@ -13,27 +13,22 @@
     <title>EcosRev</title>
 </head>
 <body>
-  <header class="p-3 mb-3 border-bottom">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary"><img src="img/Screenshot 2023-05-25 17.24.11.png" alt="" style="width: 80px;"></a></li>
-        </ul>
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="img/perfil.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small">
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
+  <header>
+    <nav id="RNavBar">
+        <div id="DivLeft">
+            <a href="/home/index.html"><img src="img/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial  -->
+            <ul class="dropdown-menu text-small">
+        </div> 
+         <div id="DivRight">
+            <img src="img/Ellipse 4.png" alt="foto de perfil do usuário" id="ImgUser">
+            <a class="LogOff" href="/home/index.html"><ul>Sair</ul></a>
         </div>
-      </div>
-    </div>
+    </nav>
   </header>
   <div id="agradecimento_conteudo">
     <div id="agradecimento_subtexto">Seus comprovantes foram enviados para o email cadastrado.</div>
     <div id="agradecimento_texto">Obrigado por colaborar para um mundo mais sustentável!</div>
-    <div id="agradecimento_img"><img src="img/linkedin_profile_image.png" alt="" style="width: 450px;"></div>
+    <div id="agradecimento_img"><img src="img/logo.png" alt="" style="width: 450px;"></div>
     <button type="button" id="agradecimento_btn" onclick="window.location.href = '/home/index.html'">Início</button>
   </div>
 

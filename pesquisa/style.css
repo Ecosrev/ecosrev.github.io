@@ -38,3 +38,8 @@
     border: none;
     margin-bottom: 20px;
 }
+#pesquisar_btn{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}

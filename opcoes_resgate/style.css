@@ -35,11 +35,18 @@ body {
                 margin: 2px 15px;
             }
             /* FORMATANDO O LOG OFF */
-            #LogOff{
+            .LogOff{
                 display: inline-block;
                 margin-right: 30px;
                 font-size: 20px;
                 font-weight: 630;
+                color: #296117;
+                text-decoration: none;
+            }
+            /* FORMATANDO O ÍCONE DE PONTOS */
+            #coins{
+                width: 15px;
+                padding: 20px 7px 0 0;
                 color: #296117;
             }
 
@@ -52,7 +59,7 @@ body {
     #TitResgate{
         margin: 25px 20px;
         color: #296117;
-        font-size: 35px;
+        font-size: 45px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.40);
         width: 100%;
     }
@@ -112,11 +119,17 @@ body {
     }
     /* FORMATANDO O BOTÃO */
     #btn_Resgate{
-        padding: 10px;
-        border-radius: 9px;
-        border: 0px;
         background-color: #D3E381;
-        box-shadow: 0px 2px #00000038;
+        color: #296117;
+        font-weight: 700;
+        font-size: 15px;
+        width: 100px;
+        height: 35px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 15px;
     }
     /* CENTRALIZANDO BOTÃO */
     #DivCenter{
