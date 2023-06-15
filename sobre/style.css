@@ -38,7 +38,6 @@ ul{
 #divLogo{
     width: 100%;
     display: flex;
-    margin: auto;
     padding: 10px;
 }
 
@@ -53,134 +52,81 @@ ul{
     margin-top: 30px;
     font-size: 20px;
 }
-
-#divContent{
-    display: flex;
-    margin: auto;
-}
-
 #inicio{
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 2%;
+    text-align: center;
 }
 /* Formatação do primeiro parágrafo */
 #p1{
     font-family: Josefin Sans;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-size: 55px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
-    text-align: center;
-    
-    font-family: Josefin Sans;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: center;
-    
-    font-family: Josefin Sans;
-    font-size: 55px;
-    font-weight: 500;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: rgba(41, 97, 23, 1);
-    display: flex;
-    margin: auto;
-    align-items: center;
+    text-align: left;
+    color: #296117;
+      
+    margin: 80px 144px auto 144px;
 }
 
 /* Formatação do segundo parágrafo */
 #p2{
-    display: flex;
-    margin: auto;
-    width: 556px;
-    height: 48px;
-    margin-top: 1%;
-    margin-bottom: 1%;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 20px;
     line-height: 40px;
-    justify-content: center;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+
     color: #7E7C7C;
 }
 
-/* Ajustando a posição do input da barra de pesquisa */
-#barra{
-    display: flex;
-    margin: auto;
-    margin-bottom: 150px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-}
 
-.input-groupflex-nowrap{
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    margin: auto;
-    width: 50%;
-}
-.input-groupflex-nowrap span, .input-groupflex-nowrap input, .input-groupflex-nowrap button{
-    height: 150%;
-
-}
 
 /* Ajustando a posição do input da barra de pesquisa */
 .input-group-text{
     padding: none;
 }
-
+#barra{
+    position: absolute;
+    width: 450px;
+    height: 20px;
+    margin-left: 420px;
+    top: 400px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-radius: 10px;
+}
 
 /* Customizando as respectivas cores da barra de pesquisa e seus itens */
 #pesquisa{
     background-color: #F3F3F3;
     border-color: #F3F3F3;
     border-radius: 0px 10px 10px 0px;
-    height: 35px;
-    margin-right: 20px;
+
+    
 }
 
 span{
     border-color: #F3F3F3;
     background-color: #F3F3F3;
     padding: none;
-    height: 35px;
 
-}
-#addon-wrapping{
-    padding: none;
-    height: 35px;
 }
 
 svg{
     color: #7E7C7C;
     background-color: #F3F3F3;
     box-shadow: 0px 2px #00000038;
-    height: 35px;
-    padding: none;
-
 }
 
 /* Formatação do botão "Buscar" */
 #btnBuscar{
-    border-radius: 9px;
-    border: 0px;
-    background-color: #D3E381;
     box-shadow: 0px 2px #00000038;
+    background-color: #D3E381;
     color: #296117;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 700;
     font-size: 15px;
     width: 100px;
@@ -189,4 +135,20 @@ svg{
     padding-bottom: 5px;
     border-radius: 10px;
     border: none;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#ilustracao{
+    text-align: center;
+}
+
+#sobre_conteudo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
