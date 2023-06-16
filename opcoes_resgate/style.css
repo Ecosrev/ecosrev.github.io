@@ -158,3 +158,29 @@ body {
 #Resgate1{
     width: 98%;
 }
+/* ADICIONANDO UM HOVER NOS BOTÕES DE RESGATE */
+#btn_Resgate:hover{
+    background-color: whitesmoke;
+    border: 1px solid #296117;
+    color: #296117;
+    font-weight: 800;
+    box-shadow: none;
+}
+#btn_ResgateAdmin:hover{
+    box-shadow: none;
+    color: white;
+    background-color: #296117;
+}
+
+/* ARRUMANDO O FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-left: 20px;
+    width: 98%;
+    border-top: 1px solid rgba(87, 87, 87, 0.25);
+    padding-top: 20px;
+    color: rgba(87, 87, 87, 0.7);
+}
