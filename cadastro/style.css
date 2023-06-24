@@ -100,3 +100,26 @@ input{
     border-radius: 50%;
     background: rgba(211, 227, 129, 0.2);
 }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 2rem;
+        margin-left: 20px;
+        width: 98%;
+        border-top: 1px solid rgba(87, 87, 87, 0.25);
+        padding-top: 20px;
+        color: rgba(87, 87, 87, 0.7);
+        margin-bottom: 15px;
+    }
+    footer div{
+        display: inline-block;
+    }
+    #icons{
+        right: 0;
+        position: fixed;
+        margin-right: 1.5%;
+    }
+    .foo{
+        margin-left: 10px;
+    }
