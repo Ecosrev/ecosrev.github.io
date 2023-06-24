@@ -13,7 +13,6 @@
     background-color: var(--cor_background_cinza);
     border: none;
     text-align: center;
-    justify-content: ;
 }
 #resultado_frase{
     font-family: var(--fontfamily_padrao);
