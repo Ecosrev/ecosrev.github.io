@@ -184,3 +184,14 @@ footer {
     padding-top: 20px;
     color: rgba(87, 87, 87, 0.7);
 }
+footer div{
+    display: inline-block;
+}
+#icons{
+    right: 0;
+    position: fixed;
+    margin-right: 1.5%;
+}
+.foo{
+    margin-left: 10px;
+}
