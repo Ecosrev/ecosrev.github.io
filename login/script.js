@@ -6,6 +6,6 @@ function Isadmin(){
         window.open('/administrar/adm.html', '_self')
     }
     else{
-        window.open('/extrato/index.html', '_self')
+        window.open('/extrato/extrato.html', '_self')
     }
 }
