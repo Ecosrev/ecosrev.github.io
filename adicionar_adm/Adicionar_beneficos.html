@@ -10,14 +10,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-container">
-        <img class="logo-container" src="/adicionar_adm/img/logo.png" alt="">  
-     <div class="foto-container">
-        <img class="foto-style" src="/adicionar_adm/img/Ellipse 4.png" alt="">
-        <a class=loggout href="">Sair</a>
-     </div>
-</header>
-    
+<header>
+        <nav id="RNavBar">
+            <div id="DivLeft">
+                <a href="/home/index.html"><img src="img/logo.png" alt="logo do site" id="ImgLogo"></a> <!--    Link para a página inicial    -->
+            </div> 
+            <div id="DivRight">
+                <i class="fa-solid fa-coins" style="color: #296117;" id="coins"></i>
+                <p class="LogOff">300,00</p>
+                <img src="img/Ellipse 4.png" alt="foto de perfil do usuário" id="ImgUser">
+                <p class="LogOff" href="/home/index.html">Sair</p>
+        </div>
+        </nav>
+    </header>
 <main class="main-container">
     <div class="title-container">
         <h2 class="title">Adicionar Pontos</h2>
@@ -27,17 +32,17 @@
         <label class="input-label">Categoria</label>
         <select class="input-style">
                 <option value="">Selecione a categoria</option>
-                <option value="opcao1">categoria 1</option>
-                <option value="opcao2">categoria 2</option>
-                <option value="opcao3">categoria 3</option>
+                <option value="opcao1">Shows e ingressos</option>
+                <option value="opcao2">Descontos</option>
+                <option value="opcao3">Bilhetes de ônibus</option>
         </select>
 
         <label class="input-label">Escolha uma pontuação:</label>
         <select class="input-style">          
             <option value="">Selecione uma pontuação</option>
-            <option value="opcao1">pontuação 1</option>
-            <option value="opcao2">pontuação 2</option>
-            <option value="opcao3">pontuação 3</option>
+            <option value="opcao1">50</option>
+            <option value="opcao2">100</option>
+            <option value="opcao3">150</option>
     </select>
 
     <label class="input-label">Descrição</label>
